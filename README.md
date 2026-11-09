@@ -14,7 +14,7 @@ Version `2.0.0` tracks the source constitution.
   "version": 1,
   "skills": {
     "merge-gate-parity": {
-      "source": "mahardikalgw/merge-gate-parity",
+      "source": "mahardikalgw/ruby-merge-gate-parity",
       "sourceType": "github",
       "skillPath": "SKILL.md"
     }
@@ -25,8 +25,8 @@ Version `2.0.0` tracks the source constitution.
 Or clone and symlink:
 
 ```bash
-git clone git@github.com:mahardikalgw/merge-gate-parity.git
-ln -s "$PWD/merge-gate-parity" .claude/skills/merge-gate-parity
+git clone git@github.com:mahardikalgw/ruby-merge-gate-parity.git
+ln -s "$PWD/ruby-merge-gate-parity" .claude/skills/merge-gate-parity
 ```
 
 ## When to activate
@@ -39,8 +39,9 @@ ln -s "$PWD/merge-gate-parity" .claude/skills/merge-gate-parity
 ## What's inside
 
 ```
-merge-gate-parity/
+ruby-merge-gate-parity/
   SKILL.md
+  bin/check-skill
   references/gate-catalogue.md
 ```
 
@@ -59,8 +60,8 @@ repository — that vendored scripts still match it byte for byte. Runs in CI on
 
 ## Related skills
 
-- [`flat-ui-contract`](https://github.com/mahardikalgw/flat-ui-contract) — INV-1…INV-9 and THEME-1…3, with both gate scripts vendored
-- [`speckit-feature-lifecycle`](https://github.com/mahardikalgw/speckit-feature-lifecycle) — specify → clarify → plan → tasks → implement → analyze → converge
+- [`flat-ui-contract`](https://github.com/mahardikalgw/ruby-flat-ui-contract) — INV-1…INV-9 and THEME-1…3, with both gate scripts vendored
+- [`speckit-feature-lifecycle`](https://github.com/mahardikalgw/ruby-speckit-feature-lifecycle) — specify → clarify → plan → tasks → implement → analyze → converge
 
 ## Licence
 
